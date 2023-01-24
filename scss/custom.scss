@@ -1,0 +1,42 @@
+
+// Brand Colors
+$blue: #007bff;
+$indigo: #2E1594;
+$purple: #5B3AE0;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #E09935;
+$yellow: #ffc107;
+$green: #329468;
+$teal: #51e0A0;
+$cyan: #17a2b8;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$grays: (100: $gray-100, 200: $gray-200, 300: $gray-300, 400: $gray-400, 500: $gray-500, 600: $gray-600, 700: $gray-700, 800: $gray-800, 900: $gray-900);
+$theme-colors: (primary: #329468,
+                secondary: $gray-600,
+                success: $teal,
+                info: $indigo,
+                warning: $orange,
+                danger: $purple,
+                light: $gray-100,
+                dark: $gray-800);
+$colors: (blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red, orange: $orange, yellow: $yellow, green: $green, teal: $teal, cyan: $cyan, white: $white, gray: $gray-600,gray-dark: $gray-800);
+$theme-color-interval: 8%;
+
+@import url("http://fonts.googleapis.com/css?family=Cutive+Mono:400,300,700");
+
+body {
+    font-family: 'Cutive Mono', sans-serif !important;
+}
+
+@import "../bootstrap/scss/bootstrap";
