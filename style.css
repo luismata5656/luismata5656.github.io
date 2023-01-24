@@ -5,8 +5,7 @@
     background: linear-gradient(110deg, #a60af3 50%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
 }
 
-
 .description {
-    font-size: 2.0vw;
+    font-size: 2.3vw;
     font-weight: bolder;
 }
